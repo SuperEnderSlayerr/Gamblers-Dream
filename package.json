@@ -1,0 +1,20 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "A Discord bot that pulls a random card from a deck.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "deploy": "node deploy-commands.js"
+  },
+  "author": "Ender Hanks",
+  "license": "ISC",
+  "dependencies": {
+    "@types/node": "^18.0.6",
+    "discord.js": "^14.11.0",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "node-fetch": "^3.2.6"
+  }
+}
